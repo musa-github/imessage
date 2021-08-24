@@ -1,0 +1,23 @@
+.sideberChat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.sideberChat:hover {
+  background: #3c93fd;
+  color: white;
+}
+.sideberChat__nfo {
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+.sideberChat__nfo > small {
+  margin-left: 15px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
